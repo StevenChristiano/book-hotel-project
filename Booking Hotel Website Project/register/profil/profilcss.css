@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.BG {
+  position: absolute;
+  width: 100%;
+  height: 1024px;
+  top: 0px;
+  left: 0px;
+  background: #074F92;
+}
+
+.MainBox {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1374px;
+  height: 969px;
+  left: 33px;
+  top: 31px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.8);
+  border-radius: 32px;
+}
+
+.topPic {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 50%;
+  top: 35px;
+  transform: translateX(-50%);
+  background: url("./asset/ProfileImg.png") center/cover no-repeat;
+}
+
+.GmailTxt {
+  font-family: Poppins;
+  font-weight: regular;
+  font-size: 20px;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 1);
+}
+
+.ManageAcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 407px;
+  height: 46px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 170px;
+}
+
+.ManageAccTxt {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.ProfileBox,
+.ProfileBox2 {
+  position: relative;
+  width: 1172px;
+  height: 335px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 26px;
+}
+
+.ProfileBox {
+  top: 245px;
+}
+
+.ProfileBox2 {
+  top: 275px;
+  height: 315px;
+}
+
+.InfoDasarTxt, .InfoPribadiTxt{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.FotoTxt,
+.NamaTxt,
+.GenderTxt,
+.TglTxt,
+.AddPicTxt,
+.AddDateTxt,
+.AddGenderTxt,
+.AddNameTxt,
+.PassTxt,
+.Phonetxt,
+.NoHpTxt,
+.Asterisk,
+.JlTxt,
+.AlamatTxt {
+  position: absolute;
+  font-family: Poppins;
+  font-weight: regular;
+  font-size: 20px;
+}
+
+.FotoTxt {
+  left: 32px;
+  top: 100px;
+}
+
+.AddPicTxt {
+  width: 800px;
+  border: none;
+  left: 185px;
+  top: 100px;
+}
+
+.ChangePic {
+  width: 102px;
+  height: 102px;
+  background: url("asset/ProfileImg.png") center center/cover no-repeat;
+  position: absolute;
+  top: 20px;
+  left: 1025px;
+  z-index: 1;
+}
+
+.Line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1126px;
+  height: 0px;
+  border: 1px solid #201E1E;
+}
+
+.Line1 {
+  top: 140px;
+}
+
+.NamaTxt {
+  position: absolute;
+  top: 155px;
+  left: 32px;
+}
+
+.AddNameTxt {
+  width: 800px;
+  border: none;
+  left: 185px;
+  top: 155px;
+}
+
+.Line2 {
+  top: 195px;
+}
+
+.Arr1, .Arr2, .Arr3, .Arr4, .Arr5, .Arr6 {
+  position: absolute;
+  width: 20px;
+  font-family: Poppins;
+  font-weight: regular;
+  font-size: 36px;
+  left: 1125px;
+}
+
+.Arr1 {
+  top: 141px;
+}
+
+.TglTxt {
+  position: absolute;
+  top: 210px;
+  left: 32px;
+}
+
+.AddDateTxt {
+  width: 800px;
+  border: none;
+  left: 185px;
+  top: 210px;
+}
+
+.Arr2 {
+  top: 196px;
+}
+
+.Line3 {
+  top: 250px;
+}
+
+.GenderTxt{
+  position: absolute;
+  top: 265px;
+  left: 32px;
+}
+
+.AddGenderTxt {
+  width: 800px;
+  border: none;
+  left: 185px;
+  top: 265px;
+}
+
+.Arr3 {
+  top: 251px;
+}
+
+.Line4 {
+  top: 305px;
+}
+
+.PassTxt,
+.NoHpTxt,
+.Asterisk,
+.JlTxt,
+.AlamatTxt {
+  width: 200px;
+  position: absolute;
+  font-weight: regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.AlamatTxt {
+  top: 100px;
+  left: 32px;
+}
+
+.JlTxt {
+  width: 800px;
+  border: none;
+  left: 185px;
+  top: 100px;
+}
+
+.Arr4 {
+  top: 90px;
+}
+
+.Line5{
+  top: 140px;
+}
+
+.NoHpTxt {
+  top: 155px;
+  left: 32px;
+}
+
+.Phonetxt {
+  width: 800px;
+  border: none;
+  left: 185px;
+  top: 155px;
+}
+
+.Arr5 {
+  top: 142px;
+}
+
+.Line6 {
+  top: 195px;
+}
+
+.PassTxt {
+  top: 210px;
+  left: 32px;
+}
+
+.Asterisk {
+  width: 800px;
+  border: none;
+  left: 185px;
+  top: 210px;
+}
+
+.Arr6 {
+  top: 197px;
+}
+
+.Line7 {
+  top: 250px;
+}
+
+.BackArrow {
+  position: absolute;
+  width: 74px;
+  height: 71px;
+  left: 72px;
+  top: 62px;
+  background: url("./asset/BackArrowImg.png") center/cover no-repeat;
+  opacity: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}

@@ -1,0 +1,283 @@
+body {
+  height: 1024px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  background-color: #074F92;
+  display: flex;
+  align-items: center;
+}
+
+.BackArrow {
+  position: absolute;
+  width: 74px;
+  height: 71px;
+  background: url("asset/arrow.png") center/cover no-repeat;
+  border-radius: 50%;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navbar .logo {
+  position: absolute;
+  left: 50%;
+  top: -15%;
+  transform: translateX(-50%);
+  font-family: 'Just Me Again Down Here';
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar .logo .title {
+  font-size: 90px;
+}
+
+.navbar .logo .motto {
+  margin-top: -8%;
+  font-size: 40px;
+}
+
+.PhoneImg,
+.ProfileImg {
+  position: absolute;
+  width: 80px;
+  height: 69.14px;
+  top: 32px;
+}
+
+.PhoneImg {
+  left: 1229px;
+}
+
+.ProfileImg {
+  left: 1333px;
+}
+
+.navbar a {
+  font-family: 'Poppins';
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.ProfileTxt {
+  position: absolute;
+  top: 111px;
+  left: 1330px;
+}
+
+.ContactTxt {
+  position: absolute;
+  top: 111px;
+  left: 1225px;
+}
+
+.ReserveBox {
+  position: relative;
+  width: 1290px;
+  height: 766px;
+  left: 75px;
+  top: 200px;
+  background-color: #074F92;
+  box-sizing: border-box;
+  border: black;
+  border-radius: 20px;
+  font-family: 'Poppins';
+}
+
+.OrderSummary {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  left: 85px;
+  top: 50px;
+}
+
+.hotelName,
+.CIDate,
+.CODate,
+.RoomType,
+.CardInfo,
+.NameCard,
+.Address,
+.Price,
+.PayTxt {
+  position: absolute;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: white;
+}
+
+.HotelBox,
+.CIBox,
+.COBox,
+.RoomTypeBox,
+#Extra,
+.MethodBox,
+#CardNo,
+#CardExpiry,
+#CardCVV,
+.NameCardBox,
+.AddressBox {
+  position: absolute;
+  width: 37.3%;
+  height: 45px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+.hotelName,
+.CIDate,
+.CODate,
+.RoomType {
+  left: 85px;
+}
+
+.HotelBox,
+.CIBox,
+.COBox,
+.RoomTypeBox {
+  left: 85px;
+}
+
+.hotelName {
+  top: 155px;
+}
+
+.HotelBox {
+  top: 200px;
+}
+
+.CIDate {
+  top: 255px;
+}
+
+.CIBox {
+  top: 300px;
+}
+
+.CODate {
+  top: 355px;
+}
+
+.COBox {
+  top: 400px;
+}
+
+.RoomType {
+  top: 455px;
+}
+
+.RoomTypeBox {
+  top: 500px;
+}
+
+#Extra {
+  top: 570px;
+  left: 85px;
+  height: 80px;
+}
+
+.Price {
+  top: 675px;
+  left: 85px;
+  font-weight: bold;
+}
+
+.PayTxt {
+  top: 130px;
+  left: 55%;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.NameCard,
+.Address,
+.CardInfo {
+  left: 55%;
+}
+
+.MethodBox,
+#CardNo,
+.NameCardBox,
+.AddressBox,
+#CardExpiry {
+  left: 55%;
+}
+
+#CardExpiry,
+#CardCVV {
+  width: 235px;
+}
+
+.MethodBox {
+  top: 195px;
+}
+
+.CardInfo {
+  top: 250px;
+}
+
+#CardNo {
+  top: 300px;
+}
+
+#CardExpiry {
+  top: 365px;
+}
+
+#CardCVV {
+  top: 365px;
+  left: 74.2%;
+}
+
+.NameCard {
+  top: 420px;
+}
+
+.NameCardBox {
+  top: 465px;
+}
+
+.Address {
+  top: 520px;
+}
+
+.AddressBox {
+  top: 570px;
+}
+
+.SubmitForm {
+  position: absolute;
+  width: 263.21px;
+  height: 64.6px;
+  left: 64%;
+  top: 650px;
+  border-radius: 15px;
+  background-color: #2196F3;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 32px;
+  border: none;
+  font-weight: bolder;
+}
+
+.SubmitForm:hover {
+  background-color: green;
+}

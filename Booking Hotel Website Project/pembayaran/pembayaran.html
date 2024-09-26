@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="pembayarancss.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="Validate.js" defer></script>
+    <title>Reservation</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="../mainpage/index.html">
+            <div class="BackArrow"></div>
+        </a>
+        <div class="logo">
+            <div class="title">Paradise</div>
+            <div class="motto">Make your trip feel like paradise</div>
+        </div>
+        <a href="../contactus/contactus.html">
+            <img src="asset/phone.png" class="PhoneImg">
+            <div class="ContactTxt">Contact Us</div>
+        </a>
+        <a href="../profil/profil.html">
+            <img src="asset/profile.png" class="ProfileImg">
+            <div class="ProfileTxt">Username</div>
+        </a>
+    </div>
+    <div class="ReserveBox">
+        <div class="OrderSummary">Order Summary</div>
+        <form>
+            <label for="insertHotelName" class="hotelName">Hotel Name:</label>
+            <input type="text" id="insertHotelName" class="HotelBox" placeholder="HotelHotel" readonly>
+
+            <label for="CheckinDate" class="CIDate">Check in date:</label>
+            <input type="date" id="CheckinDate" class="CIBox" placeholder="1/1/1000">
+
+            <label for="CheckoutDate" class="CODate">Check out date:</label>
+            <input type="date" id="CheckoutDate" class="COBox" placeholder="1/1/1000">
+
+            <label for="RoomTypeInput" class="RoomType">Room Type:</label>
+            <input type="text" id="RoomTypeInput" class="RoomTypeBox" placeholder="Single Bed Room">
+
+            <input type="text" id="Extra" placeholder="Enter extra requests here">
+            <span class="Price">Total Price: Rp.xxx</span>
+
+            <span class="PayTxt">Payment Method: </span>
+            <input type="text" id="PayMethod" class="MethodBox" placeholder="Debit Card" readonly>
+
+            <label for="CardNo" class="CardInfo">Card Information</label>
+            <input type="number" id="CardNo" placeholder="1234 1234 1234 1234">
+            <input type="text" id="CardExpiry" placeholder="MM/YY">
+            <input type="number" id="CardCVV" placeholder="CVV">
+
+            <label for="NameOnCard" class="NameCard">Name On Card</label>
+            <input type="text" id="NameOnCard" class="NameCardBox">
+
+            <label for="BillingAddress" class="Address">Billing Address</label>
+            <input type="text" id="BillingAddress" class="AddressBox">
+
+            <input type="submit" class="SubmitForm" onclick="return validate()" value="Checkout">
+            
+        </form>
+    </div>
+</body>
+
+</html>

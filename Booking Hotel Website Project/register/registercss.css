@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    text-decoration: 0;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./asset/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 50px 50px;
+    width: 50%;
+    
+    justify-content: space-around;
+    text-align: center;
+    height: 100vh;
+}
+
+.title-container{
+    font-family: Just Me Again Down Here;
+    color: white;
+}
+
+.title-container .title{
+    font-size: 200px;
+}
+
+.title-container .motto{
+    text-align: center;
+    font-size: 40px;
+    
+    padding-left: 20px;
+}
+
+.welcome-text{
+    font-family: Poppins;
+    font-size: 48px;
+    color: white;
+    font-style: italic;
+
+    padding-top: 100px;
+}
+
+.main-text .bottom-text{
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+}
+.main-text{
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    padding-top: 100px;
+}
+
+.social-media{
+    padding-top: 10px;
+    color: white;
+    font-size: 40px;
+    word-spacing: 20px;
+}
+
+/* left-side-end */
+
+/* right-side */
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    background-color: #074F92;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.right-side .signup-text{
+    padding: 40px;
+    font-size: 48px;
+}
+
+.right-side .username-box, .right-side .username-box input {
+    border: none;
+}
+.right-side .username-box, .right-side .password-box input {
+    border: none;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.right-side .username-box, .right-side .password-box, .right-side .forgot-password, .right-side .goto-sign-in, .right-side .email-box{
+    padding: 20px 60px;
+}
+
+.right-side label{
+    text-align: left;
+    padding-right: 520px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.right-side input{
+    height: 50px;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+}
+
+.right-side .forgot-password, .right-side .goto-sign-in{
+    text-align: left;
+}
+
+.right-side .forgot-password span, .right-side .goto-sign-in span{
+    color: aqua;
+}
+
+.right-side .sign-up{
+    height: 60px;
+    width: 20%;
+    margin: 30px auto;
+    border-radius: 30px;
+    font-size: 30px;
+    box-shadow: 3px 5px rgb(58, 57, 57);
+    color: #27B7D7;
+    color: black;
+}
+
+.right-side .goto-sign-in{
+    padding-top: 150px;
+    color: white;
+}
+
